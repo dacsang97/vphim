@@ -5,7 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace VPhim.Controllers {
-    public class ComicBookController : Controller {
-
+    public class ComicBooksController : Controller {
+        public ActionResult Detail() {
+            return View();
+        }
     }
 }
